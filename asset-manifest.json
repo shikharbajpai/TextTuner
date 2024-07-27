@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TextTuner/static/css/main.0e96a501.css",
+    "main.js": "/TextTuner/static/js/main.02fec642.js",
+    "static/js/453.00f5d80d.chunk.js": "/TextTuner/static/js/453.00f5d80d.chunk.js",
+    "index.html": "/TextTuner/index.html",
+    "main.0e96a501.css.map": "/TextTuner/static/css/main.0e96a501.css.map",
+    "main.02fec642.js.map": "/TextTuner/static/js/main.02fec642.js.map",
+    "453.00f5d80d.chunk.js.map": "/TextTuner/static/js/453.00f5d80d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e96a501.css",
+    "static/js/main.02fec642.js"
+  ]
+}

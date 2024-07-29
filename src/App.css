@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+/*==================== BASE ====================*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+    scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    overflow: auto !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*========== SCROLL UP ==========*/
+.scrollup {
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: #6e57e0;
+    opacity: .8;
+    padding: 0 .3rem;
+    border-radius: .4rem;
+    z-index: 10;
+    transition: .4s;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .scrollup:hover {
+    background-color: #5a43cb;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .scrollup__icon {
+    font-size: 1.5rem;
+    color: #fff;
   }
-}
+  
+  /* Show scroll */
+  .show-scroll {
+    bottom: 5rem;
+  }
+
+  /*========== FOOTER ==========*/
+
+  .footer__social {
+    font-size: 2rem;
+  }
+  
+  .footer__social:hover {
+    color: #5a43cb !important;
+  }

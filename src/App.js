@@ -13,7 +13,7 @@ function App() {
     setIsChecked(event.target.checked);
   };
 
-  const mode = isChecked ? 'light' : 'dark-subtle';
+  const mode = isChecked ? 'body' : 'dark-subtle';
 
   const scrollUp = () => {
     const scrollY = window.scrollY;
